@@ -1,6 +1,6 @@
 # hi
 
-hi is a tiny program that send benchmark request to "almost" everything. note that it's inspired by [rakyll/hey](https://github.com/rakyll/hey) and implemented by python/asyncio
+hi is a tiny cli program that send benchmark request to "almost" everything. note that it's inspired by [rakyll/hey](https://github.com/rakyll/hey) and implemented by python/asyncio
 
 ## Install
 

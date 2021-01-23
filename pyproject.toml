@@ -1,16 +1,18 @@
 [tool.poetry]
 authors = ["Ehco1996 <zh19960202@gmail.com>"]
-description = "hi from asyncio"
+description = "hi is a tiny cli program that send benchmark request to almost everything based on asyncio"
+keywords = ["benchmark", "asyncio", "cli"]
 license = "GPLV3"
 name = "py-hi"
 packages = [
   {include = "hi.py"},
 ]
-version = "0.1.0"
+readme = "README.md"
+version = "0.1.2"
 
 [tool.poetry.dependencies]
 aiohttp = "^3.7.3"
-python = "^3.9"
+python = "^3.7"
 rich = "^9.8.2"
 typer = "^0.3.2"
 

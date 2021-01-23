@@ -4,7 +4,7 @@ hi is a tiny program that send benchmark request to "almost" everything. note th
 
 ## Install
 
- `pip install hi`
+ `pip install py-hi`
 
 ## Usage
 

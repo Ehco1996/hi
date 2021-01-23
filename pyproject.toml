@@ -2,7 +2,10 @@
 authors = ["Ehco1996 <zh19960202@gmail.com>"]
 description = "hi from asyncio"
 license = "GPLV3"
-name = "hi"
+name = "py-hi"
+packages = [
+  {include = "hi.py"},
+]
 version = "0.1.0"
 
 [tool.poetry.dependencies]

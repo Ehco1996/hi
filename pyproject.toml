@@ -1,0 +1,36 @@
+[tool.poetry]
+authors = ["Ehco1996 <zh19960202@gmail.com>"]
+description = "hi from asyncio"
+license = "GPLV3"
+name = "hi"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+aiohttp = "^3.7.3"
+python = "^3.9"
+rich = "^9.8.2"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+autoflake = {version = "^1.4", allow-prereleases = true}
+black = {version = "^20.8b1", allow-prereleases = true}
+isort = {version = "^5.7.0", allow-prereleases = true}
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.poetry.scripts]
+hi = 'hi:main'
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+include_trailing_comma = true
+line_length = 88
+multi_line_output = 3
+use_parentheses = true
